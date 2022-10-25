@@ -26,10 +26,6 @@ public class P2Advinhar {
 		p2 = new P2Jogador("Eliezer");
 		p3 = new P2Jogador("Junior");
 
-//		boolean p1tentativa = false;
-//		boolean p2tentativa = false;
-//		boolean p3tentativa = false;
-
 		System.out.println("O número a ser encontrado é: " + num + "\n");
 
 		// Teste para ver quantos e quais jogadores ganharam
@@ -55,6 +51,7 @@ public class P2Advinhar {
 				cont++;
 			}
 
+			// Separa cada tipo de resultado, definindo como será exibido
 			if (cont > 0) {
 				if (cont == 1) {
 					System.out.println("\nTemos " + cont + " vencedor!!!");

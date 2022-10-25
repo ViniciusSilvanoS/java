@@ -17,6 +17,7 @@ public class P2Jogador {
 		this.nome = nome;
 	}
 	
+	// Gera os números aleatórios de cada jogador
 	void pegaChute(int qtdChutes) {
 		this.numero = aleatorio.nextInt(qtdChutes);
 	}

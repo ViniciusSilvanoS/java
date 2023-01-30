@@ -233,6 +233,15 @@ class CampoTeste {
 		assertTrue(campo22.isAberto() && campo11.isFechado());
 	}
 	
+	//// ----------------------------------------------------
+	
+//	@Test
+//	void testeAtingirObjetivo() {
+//		
+//		Campo campo22 = new Campo(2, 2);
+//		Campo campo22 = new Campo(2, 2);
+//		
+//	}
 	
 	
 	
